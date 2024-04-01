@@ -1,0 +1,100 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.header, .hero, .footer {
+    background-color: #1f2937;
+}
+.quote {
+    background-color: #e5e7eb;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.header ul li a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+.he-logo {
+    margin-right: auto;
+}
+.he-logo a {
+    font-size: 24px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+}
+.ht-mt {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+.ht-st {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.ht-b a {
+    background-color: #3882f6;
+    padding: 8px;
+    border-radius: 8px;
+    color: #f9faf8;
+    text-decoration: none;
+}
+.i-h {
+    color:#1f2937;
+    font-size: 36px;
+    font-weight: 700;
+}
+.q-t {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+.q-a {
+    font-size: 24px;
+    font-weight: 700;
+}
+.card-image {
+    width: 160px;
+    height: 160px;
+    border: #3882f6 3px solid;
+    border-radius: 16px;
+}
+.hero-image {
+    width: 450px;
+    height: 200px;
+    background-color: #6D747D;
+    color: #f9faf8;
+}
+.cta-box {
+    background-color: #3882f6;
+    color: #f9faf8
+}
+.cta-bt-mt {
+    font-size: 24px;
+    font-weight: 700;
+}
+.ht-b, .cta-bb {
+    font-weight: 700;
+}
+.footer {
+    color:#f9faf8;
+}
+.i-c {
+    display: flex;
+    text-align: center
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
